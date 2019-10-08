@@ -1,0 +1,108 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Feb 24, 2015, 17:12:12 PM
+    Author     : Summer IT
+*/
+body {
+	background-color:#F9F9F9;
+    padding-top: 70px;
+    color:#686868;
+}
+textarea {
+    resize: none;
+}
+table th {
+    padding:5px;
+    /*font-weight:normal;
+    background:#455868;*/
+    /*color:#167EC7;*/
+}
+h4 {
+    font-weight: bold;
+}
+
+.header{
+	border-bottom: 2px solid #FFFFFF;
+	width: auto;
+	/*max-width: 96%;*/
+	top: 0px;
+	left: 0px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+	background-color: #3a3c3a;
+	text-align:center;
+}
+.header h1, .header h2, .header h3, .header h4{
+	margin: 0px 0px 10px 0px;
+	padding: 3px 0px;
+	color: #ffffff;
+	text-shadow: 0 2px 1px rgba(0,0,0,0.3);
+}
+.wrap{
+	width: 1024px;
+	max-width: 96%;
+	padding: 0px 0px 0px 0px;
+	margin: 0 auto;
+	height:auto;
+}
+.wrap_content{
+	width: 1024px;
+	max-width: 96%;
+	padding: 0px 0px 10px 0px;
+	margin: 0 auto;
+	height:auto;
+}
+
+.content{
+	/*background: #ece8e5;
+	float: left;
+	width: 96%;
+	height: 100%;*/
+	min-height:480px;
+}
+.footer{
+	border-top: 2px solid #FFFFFF;
+	width: auto;
+	/*max-width: 96%;*/
+	padding: 22px 0px 12px 0px;
+	margin: 0 auto;
+	background: #455868;
+	/*position:absolute;*/
+}
+
+.footer p{
+	text-align: center;
+	color: #ffffff;
+}
+
+.btn-kustom{
+	color:#333;
+	background-color:#fff;
+	border-color:#ccc;
+	border-radius:4px
+}
+.btn-kustom:hover{
+	color:#333;
+	background-color:#e6e6e6;
+	border-color:#adadad
+}
+@media screen and (max-width: 1024px) {
+	img {
+		max-width:100%;
+	}
+	#peta {
+		max-width:96%
+	}
+}
+@media screen and (max-width: 640px) {
+	h3{
+	font-size:14pt;
+	}
+	table {
+	font-size:12px;
+}
+}
